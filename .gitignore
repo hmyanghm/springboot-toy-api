@@ -1,2 +1,3 @@
-# Project exclude paths
+# Created by YHM
 /.gradle/
+.idea
