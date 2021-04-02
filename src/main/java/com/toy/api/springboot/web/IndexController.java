@@ -35,6 +35,4 @@ public class IndexController {
 
         return "posts-update";
     }
-
-
 }
