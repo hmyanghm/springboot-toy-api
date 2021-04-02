@@ -22,11 +22,11 @@
             {{#posts}} <!-- posts라는 list를 for문 돌린 것-->
                 <tr>
                     <td>{{id}}</td> <!-- list에서 뽑아낸 객체의 필드 사용-->
-                    <td>{{title}}</td>
+                    <td><a href="/posts/update/{{id}}">{{title}}</a></td> <!-- title에 a태그 추가해서 타이틀 클릭하면 해당 게시글의 수정 화면으로 감-->
                     <td>{{author}}</td>
                     <td>{{modifiedDate}}</td>
                 </tr>
-            {{/posts}}}
+            {{/posts}}
             </tbody>
         </table>
     </div>
