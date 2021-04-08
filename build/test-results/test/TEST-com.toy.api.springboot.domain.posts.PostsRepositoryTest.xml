@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.toy.api.springboot.domain.posts.PostsRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-07T07:44:52" hostname="DESKTOP-HT89HTC" time="0.028">
+<testsuite name="com.toy.api.springboot.domain.posts.PostsRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-08T06:38:05" hostname="DESKTOP-HT89HTC" time="0.034">
   <properties/>
-  <testcase name="게시글저장_불러오기" classname="com.toy.api.springboot.domain.posts.PostsRepositoryTest" time="0.019"/>
-  <testcase name="BaseTimeEntity_등록" classname="com.toy.api.springboot.domain.posts.PostsRepositoryTest" time="0.009"/>
-  <system-out><![CDATA[2021-04-07 16:44:50.797  INFO 77672 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.toy.api.springboot.domain.posts.PostsRepositoryTest], using SpringBootContextLoader
-2021-04-07 16:44:50.798  INFO 77672 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.toy.api.springboot.domain.posts.PostsRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2021-04-07 16:44:50.798  INFO 77672 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.toy.api.springboot.domain.posts.PostsRepositoryTest]: PostsRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2021-04-07 16:44:50.807  INFO 77672 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.toy.api.springboot.Application for test class com.toy.api.springboot.domain.posts.PostsRepositoryTest
-2021-04-07 16:44:50.809  INFO 77672 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2021-04-07 16:44:50.809  INFO 77672 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@75de6429, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5446c646, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5e2e7ffc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@520e670d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5477be49, org.springframework.test.context.transaction.TransactionalTestExecutionListener@36612677, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1b1d7ed8, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3a0a44b9, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@53e63047, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6c0bf6d2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1c10be35, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74571e82, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@16517c47, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@255fa539]
+  <testcase name="게시글저장_불러오기" classname="com.toy.api.springboot.domain.posts.PostsRepositoryTest" time="0.024"/>
+  <testcase name="BaseTimeEntity_등록" classname="com.toy.api.springboot.domain.posts.PostsRepositoryTest" time="0.01"/>
+  <system-out><![CDATA[2021-04-08 15:38:03.902  INFO 80120 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.toy.api.springboot.domain.posts.PostsRepositoryTest], using SpringBootContextLoader
+2021-04-08 15:38:03.903  INFO 80120 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.toy.api.springboot.domain.posts.PostsRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-08 15:38:03.903  INFO 80120 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.toy.api.springboot.domain.posts.PostsRepositoryTest]: PostsRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-08 15:38:03.914  INFO 80120 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.toy.api.springboot.Application for test class com.toy.api.springboot.domain.posts.PostsRepositoryTest
+2021-04-08 15:38:03.916  INFO 80120 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-04-08 15:38:03.917  INFO 80120 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36612677, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1b1d7ed8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3a0a44b9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@53e63047, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c0bf6d2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1c10be35, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@74571e82, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@16517c47, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@255fa539, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3c2746b1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7048ecb9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d6605b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3548134b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@335cc99d]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -18,17 +18,17 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.1.7.RELEASE)
 
-2021-04-07 16:44:50.838  INFO 77672 --- [    Test worker] c.t.a.s.d.posts.PostsRepositoryTest      : Starting PostsRepositoryTest on DESKTOP-HT89HTC with PID 77672 (started by YHM in C:\Users\YHM\IdeaProjects\springboot-toy-api)
-2021-04-07 16:44:50.839  INFO 77672 --- [    Test worker] c.t.a.s.d.posts.PostsRepositoryTest      : The following profiles are active: oauth
-2021-04-07 16:44:51.032  INFO 77672 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-04-07 16:44:51.053  INFO 77672 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 2 repository interfaces.
-2021-04-07 16:44:51.127  INFO 77672 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$996e5a11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-04-07 16:44:51.193  INFO 77672 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2021-04-07 16:44:51.194  INFO 77672 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2021-04-07 16:44:51.219  INFO 77672 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2021-04-08 15:38:03.953  INFO 80120 --- [    Test worker] c.t.a.s.d.posts.PostsRepositoryTest      : Starting PostsRepositoryTest on DESKTOP-HT89HTC with PID 80120 (started by YHM in C:\Users\YHM\IdeaProjects\springboot-toy-api)
+2021-04-08 15:38:03.954  INFO 80120 --- [    Test worker] c.t.a.s.d.posts.PostsRepositoryTest      : The following profiles are active: oauth
+2021-04-08 15:38:04.142  INFO 80120 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-04-08 15:38:04.167  INFO 80120 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 2 repository interfaces.
+2021-04-08 15:38:04.256  INFO 80120 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$43f7984a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-08 15:38:04.338  INFO 80120 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-04-08 15:38:04.339  INFO 80120 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-04-08 15:38:04.361  INFO 80120 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2021-04-07 16:44:51.227  INFO 77672 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-08 15:38:04.369  INFO 80120 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Hibernate: 
     
     drop table if exists posts
@@ -58,15 +58,15 @@ Hibernate:
         role varchar(255) not null,
         primary key (id)
     ) engine=MyISAM
-2021-04-07 16:44:51.261  INFO 77672 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@532bb3c'
-2021-04-07 16:44:51.261  INFO 77672 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-04-07 16:44:51.416  INFO 77672 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2021-04-07 16:44:51.533  INFO 77672 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@587c1f5e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6862d136, org.springframework.security.web.header.HeaderWriterFilter@24de3ba4, org.springframework.security.web.authentication.logout.LogoutFilter@3faa097, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1fed872f, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@55c5965e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7d6f356d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@70550cec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e0ee3c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5436e6bf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3723936, org.springframework.security.web.session.SessionManagementFilter@77fbc17d, org.springframework.security.web.access.ExceptionTranslationFilter@6461a15f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d48b924]
-2021-04-07 16:44:51.750  INFO 77672 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-07 16:44:51.759  WARN 77672 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-04-07 16:44:51.780  INFO 77672 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-04-07 16:44:52.072  INFO 77672 --- [    Test worker] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2021-04-07 16:44:52.073  INFO 77672 --- [    Test worker] c.t.a.s.d.posts.PostsRepositoryTest      : Started PostsRepositoryTest in 1.263 seconds (JVM running for 8.432)
+2021-04-08 15:38:04.405  INFO 80120 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2bd76a44'
+2021-04-08 15:38:04.405  INFO 80120 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-08 15:38:04.542  INFO 80120 --- [    Test worker] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-04-08 15:38:04.666  INFO 80120 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@80129ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@660d32c6, org.springframework.security.web.header.HeaderWriterFilter@3faa097, org.springframework.security.web.authentication.logout.LogoutFilter@570ea58f, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@42424e9e, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@1a280856, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@581a3748, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13a53fe4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@624db737, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34e55df1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4343a5b0, org.springframework.security.web.session.SessionManagementFilter@5ed2fda, org.springframework.security.web.access.ExceptionTranslationFilter@7d6f356d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a7c2860]
+2021-04-08 15:38:04.897  INFO 80120 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-08 15:38:04.907  WARN 80120 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-08 15:38:04.935  INFO 80120 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-08 15:38:05.251  INFO 80120 --- [    Test worker] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-04-08 15:38:05.252  INFO 80120 --- [    Test worker] c.t.a.s.d.posts.PostsRepositoryTest      : Started PostsRepositoryTest in 1.334 seconds (JVM running for 8.623)
 Hibernate: 
     /* insert com.toy.api.springboot.domain.posts.Posts
         */ insert 
@@ -75,11 +75,11 @@ Hibernate:
             (created_date, modified_date, author, content, title) 
         values
             (?, ?, ?, ?, ?)
-2021-04-07 16:44:52.087 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-07T16:44:52.086]
-2021-04-07 16:44:52.087 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-07T16:44:52.086]
-2021-04-07 16:44:52.087 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [test@test.com]
-2021-04-07 16:44:52.087 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [테스트 본문]
-2021-04-07 16:44:52.087 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [테스트 게시글]
+2021-04-08 15:38:05.268 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-08T15:38:05.267]
+2021-04-08 15:38:05.268 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-08T15:38:05.267]
+2021-04-08 15:38:05.269 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [test@test.com]
+2021-04-08 15:38:05.269 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [테스트 본문]
+2021-04-08 15:38:05.269 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [테스트 게시글]
 Hibernate: 
     /* select
         generatedAlias0 
@@ -112,7 +112,7 @@ Hibernate:
             posts 
         where
             id=?
-2021-04-07 16:44:52.098 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2021-04-08 15:38:05.283 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
 Hibernate: 
     /* insert com.toy.api.springboot.domain.posts.Posts
         */ insert 
@@ -121,11 +121,11 @@ Hibernate:
             (created_date, modified_date, author, content, title) 
         values
             (?, ?, ?, ?, ?)
-2021-04-07 16:44:52.103 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-07T16:44:52.102]
-2021-04-07 16:44:52.103 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-07T16:44:52.102]
-2021-04-07 16:44:52.103 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
-2021-04-07 16:44:52.103 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content]
-2021-04-07 16:44:52.103 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title]
+2021-04-08 15:38:05.288 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-08T15:38:05.287]
+2021-04-08 15:38:05.288 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-08T15:38:05.287]
+2021-04-08 15:38:05.288 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
+2021-04-08 15:38:05.288 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content]
+2021-04-08 15:38:05.288 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title]
 Hibernate: 
     /* select
         generatedAlias0 
@@ -139,7 +139,7 @@ Hibernate:
             posts0_.title as title6_0_ 
         from
             posts posts0_
->>>>>>>>>> createDate = 2021-04-07T16:44:52.102, modifiedDate = 2021-04-07T16:44:52.102
+>>>>>>>>>> createDate = 2021-04-08T15:38:05.287, modifiedDate = 2021-04-08T15:38:05.287
 Hibernate: 
     /* select
         generatedAlias0 
@@ -159,7 +159,7 @@ Hibernate:
             posts 
         where
             id=?
-2021-04-07 16:44:52.107 TRACE 77672 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2021-04-08 15:38:05.293 TRACE 80120 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

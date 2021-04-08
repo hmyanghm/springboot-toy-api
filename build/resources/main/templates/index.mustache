@@ -8,10 +8,12 @@
                 <a href="/posts/save" role="button" class="btn btn-primary">글 등록</a>
                 {{#userName}} <!-- 머스테치는 if문이 없기때문에 항상 최종값을 넘겨줘야 함 -->
                     Logged in as: <span id="user">{{userName}}</span>
-                    <a href="/logout" class="btn btn-info active" role="button">Logout</a>
+                    <a href="/logout" class="btn btn-info active" role="button">LOGOUT</a>
                 {{/userName}}
                 {{^userName}} <!-- 머스테치에서 해당 값이 존재하지 않는 경우에는 ^를 사용-->
-                    <a href="/oauth2/authorization/google" class="btn btn-success active" role="button">Google Login</a>
+                    <a href="/oauth2/authorization/google" class="btn btn-success active" role="button">GOOGLE LOGIN</a>
+                    <!--  네이버 로그인 URL은 application-oauth.properties에 등록한 redirect-uri 값에 맞춰 자동으로 등록 -->
+                    <a href="/oauth2/authorization/naver" class="btn btn-secondary active" role="button">NAVER LOGIN</a>
                 {{/userName}}
             </div>
         </div>
