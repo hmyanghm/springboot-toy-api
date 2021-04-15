@@ -75,15 +75,15 @@ public class PostsApiControllerTest {
         String url = "http://localhost:" + port + "/api/v1/posts";
 
         //when
-//        ResponseEntity<Long> responseEntity = restTemplate.postForEntity(url, requestDto, Long.class);
+//        ResponseEntity<Long> responseEntity = restTemplate.postForEntity(url, requestDto, Long.class); //기존 소스
         mvc.perform(post(url) // 생성된 MockMvc를 통해 API를 테스트
         .contentType(MediaType.APPLICATION_JSON_UTF8)
         .content(new ObjectMapper().writeValueAsString(requestDto)))
                 .andExpect(status().isOk());
 
         //then
-//        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
-//        assertThat(responseEntity.getBody()).isGreaterThan(0L);
+//        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK); //기존 소스
+//        assertThat(responseEntity.getBody()).isGreaterThan(0L); //기존 소스
         List<Posts> all = postsRepository.findAll();
         assertThat(all.get(0).getTitle()).isEqualTo(title);
         assertThat(all.get(0).getContent()).isEqualTo(content);
@@ -113,15 +113,15 @@ public class PostsApiControllerTest {
         HttpEntity<PostsUpdateRequestDto> requestEntity = new HttpEntity<>(requestDto);
 
         //when
-//        ResponseEntity<Long> responseEntity = restTemplate.exchange(url, HttpMethod.PUT, requestEntity, Long.class);
+//        ResponseEntity<Long> responseEntity = restTemplate.exchange(url, HttpMethod.PUT, requestEntity, Long.class); //기존 소스
         mvc.perform(put(url)
         .contentType(MediaType.APPLICATION_JSON_UTF8)
         .content(new ObjectMapper().writeValueAsString(requestDto)))
                 .andExpect(status().isOk());
 
         //then
-//        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
-//        assertThat(responseEntity.getBody()).isGreaterThan(0L);
+//        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK); //기존 소스
+//        assertThat(responseEntity.getBody()).isGreaterThan(0L); //기존 소스
 
         List<Posts> all = postsRepository.findAll();
         assertThat(all.get(0).getTitle()).isEqualTo(expectedTitle);
