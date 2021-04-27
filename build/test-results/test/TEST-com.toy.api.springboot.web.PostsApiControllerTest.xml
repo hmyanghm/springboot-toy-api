@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.toy.api.springboot.web.PostsApiControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-26T06:50:25" hostname="DESKTOP-HT89HTC" time="0.077">
+<testsuite name="com.toy.api.springboot.web.PostsApiControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-26T07:56:14" hostname="DESKTOP-HT89HTC" time="0.087">
   <properties/>
-  <testcase name="Posts_등록된다" classname="com.toy.api.springboot.web.PostsApiControllerTest" time="0.053"/>
-  <testcase name="Posts_수정된다" classname="com.toy.api.springboot.web.PostsApiControllerTest" time="0.023"/>
-  <system-out><![CDATA[2021-04-26 15:50:25.983  INFO 26904 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.toy.api.springboot.web.PostsApiControllerTest], using SpringBootContextLoader
-2021-04-26 15:50:25.983  INFO 26904 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.toy.api.springboot.web.PostsApiControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2021-04-26 15:50:25.983  INFO 26904 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.toy.api.springboot.web.PostsApiControllerTest]: PostsApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2021-04-26 15:50:25.984  INFO 26904 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.toy.api.springboot.Application for test class com.toy.api.springboot.web.PostsApiControllerTest
-2021-04-26 15:50:25.985  INFO 26904 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2021-04-26 15:50:25.986  INFO 26904 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19f37f36, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@18be69ed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@225e3f01, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c6e70df, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7e66baab, org.springframework.test.context.transaction.TransactionalTestExecutionListener@15fc458b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4689d602, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@496eae84, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@296e6e0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75b13b24, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7d00ca56, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@41a641fc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@74320ece, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8a67377]
-2021-04-26 15:50:25.992  INFO 26904 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
-2021-04-26 15:50:25.993  INFO 26904 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-04-26 15:50:25.994  INFO 26904 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+  <testcase name="Posts_등록된다" classname="com.toy.api.springboot.web.PostsApiControllerTest" time="0.063"/>
+  <testcase name="Posts_수정된다" classname="com.toy.api.springboot.web.PostsApiControllerTest" time="0.024"/>
+  <system-out><![CDATA[2021-04-26 16:56:14.766  INFO 37240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.toy.api.springboot.web.PostsApiControllerTest], using SpringBootContextLoader
+2021-04-26 16:56:14.767  INFO 37240 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.toy.api.springboot.web.PostsApiControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-26 16:56:14.767  INFO 37240 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.toy.api.springboot.web.PostsApiControllerTest]: PostsApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-26 16:56:14.768  INFO 37240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.toy.api.springboot.Application for test class com.toy.api.springboot.web.PostsApiControllerTest
+2021-04-26 16:56:14.769  INFO 37240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-04-26 16:56:14.770  INFO 37240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@75b13b24, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d00ca56, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@41a641fc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@74320ece, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8a67377, org.springframework.test.context.transaction.TransactionalTestExecutionListener@730f4a4f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@d54c73, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@647576d9, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@5ff39ceb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@56a7f868, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7cbb901b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3337f2eb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@70e034a2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@19ede66e]
+2021-04-26 16:56:14.776  INFO 37240 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-04-26 16:56:14.776  INFO 37240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-04-26 16:56:14.778  INFO 37240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
 Hibernate: 
     /* insert com.toy.api.springboot.domain.posts.Posts
         */ insert 
@@ -20,11 +20,11 @@ Hibernate:
             (created_date, modified_date, author, content, title) 
         values
             (?, ?, ?, ?, ?)
-2021-04-26 15:50:26.033 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-26T15:50:26.032]
-2021-04-26 15:50:26.033 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-26T15:50:26.032]
-2021-04-26 15:50:26.033 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
-2021-04-26 15:50:26.033 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content]
-2021-04-26 15:50:26.033 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title]
+2021-04-26 16:56:14.827 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-26T16:56:14.826]
+2021-04-26 16:56:14.827 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-26T16:56:14.826]
+2021-04-26 16:56:14.827 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
+2021-04-26 16:56:14.827 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content]
+2021-04-26 16:56:14.827 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title]
 Hibernate: 
     /* select
         generatedAlias0 
@@ -57,10 +57,10 @@ Hibernate:
             posts 
         where
             id=?
-2021-04-26 15:50:26.040 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
-2021-04-26 15:50:26.043  INFO 26904 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
-2021-04-26 15:50:26.044  INFO 26904 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-04-26 15:50:26.045  INFO 26904 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-04-26 16:56:14.833 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2021-04-26 16:56:14.837  INFO 37240 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-04-26 16:56:14.837  INFO 37240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-04-26 16:56:14.839  INFO 37240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
 Hibernate: 
     /* insert com.toy.api.springboot.domain.posts.Posts
         */ insert 
@@ -69,11 +69,11 @@ Hibernate:
             (created_date, modified_date, author, content, title) 
         values
             (?, ?, ?, ?, ?)
-2021-04-26 15:50:26.046 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-26T15:50:26.045]
-2021-04-26 15:50:26.046 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-26T15:50:26.045]
-2021-04-26 15:50:26.046 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
-2021-04-26 15:50:26.046 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content]
-2021-04-26 15:50:26.046 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title]
+2021-04-26 16:56:14.840 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-26T16:56:14.839]
+2021-04-26 16:56:14.840 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-26T16:56:14.839]
+2021-04-26 16:56:14.840 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
+2021-04-26 16:56:14.840 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content]
+2021-04-26 16:56:14.840 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title]
 Hibernate: 
     select
         posts0_.id as id1_0_0_,
@@ -86,7 +86,7 @@ Hibernate:
         posts posts0_ 
     where
         posts0_.id=?
-2021-04-26 15:50:26.053 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2021-04-26 16:56:14.847 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
 Hibernate: 
     /* update
         com.toy.api.springboot.domain.posts.Posts */ update
@@ -99,12 +99,12 @@ Hibernate:
             title=? 
         where
             id=?
-2021-04-26 15:50:26.058 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-26T15:50:26.045]
-2021-04-26 15:50:26.058 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-26T15:50:26.057]
-2021-04-26 15:50:26.058 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
-2021-04-26 15:50:26.059 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content2]
-2021-04-26 15:50:26.059 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title2]
-2021-04-26 15:50:26.059 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [2]
+2021-04-26 16:56:14.853 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [TIMESTAMP] - [2021-04-26T16:56:14.839]
+2021-04-26 16:56:14.853 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [TIMESTAMP] - [2021-04-26T16:56:14.851]
+2021-04-26 16:56:14.853 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [author]
+2021-04-26 16:56:14.853 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [content2]
+2021-04-26 16:56:14.854 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [VARCHAR] - [title2]
+2021-04-26 16:56:14.854 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [2]
 Hibernate: 
     /* select
         generatedAlias0 
@@ -137,7 +137,7 @@ Hibernate:
             posts 
         where
             id=?
-2021-04-26 15:50:26.063 TRACE 26904 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2021-04-26 16:56:14.857 TRACE 37240 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
