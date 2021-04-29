@@ -18,4 +18,4 @@ script: "./gradlew clean build"
 notifications:
   email:
     recipients:
-      - 본인 메일 주소
+      - hmyanghm@gmail.com
