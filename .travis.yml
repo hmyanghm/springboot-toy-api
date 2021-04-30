@@ -19,12 +19,9 @@ cache: # gradle을 통해 의존성을 받게 되면 이를 해당 디렉토리�
 script: "./gradlew clean build" # master에 push될 때 수행하는 명령어(현재 옵션은 프로젝트 내부에 둔 gradlew을 통해 clean & build 수행)
 
 before_deploy: #deploy 명령어가 실행되기 전 수행, CodeDeploy는 JAR파일을 인식하지 못하므로 JAR + 기타 설정 파일들을 모아 압축
-  - ls -al
-  - zip -r springboot-toy-api # 현재 위치의 모든 파일은 해당 이름으로 압축 (명령어의 마지막 위치는 본인의 프로젝트 이름이어야 함)
-  - ls -al
+  - zip -r toy_springboot2_webservice # 현재 위치의 모든 파일은 해당 이름으로 압축 (명령어의 마지막 위치는 본인의 프로젝트 이름이어야 함)
   - mkdir -p deploy # deploy라는 디렉토리를 Travics CI가 실행중인 위치에 생성
-  - ls -al
-  - mv springboot-toy-api.zip deploy/springboot-toy-api.zip # 해당 ***.zip파일을 deploy/***.zip으로 이동
+  - mv toy_springboot2_webservice.zip deploy/toy_springboot2_webservice.zip # 해당 ***.zip파일을 deploy/***.zip으로 이동
 
 deploy: # S#로 파일 업로드 혹은 CodeDeploy로 배포 등 외부 서비스와 연동될 행위들을 선택
   - provider: s3
