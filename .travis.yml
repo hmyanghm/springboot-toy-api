@@ -50,7 +50,7 @@ deploy: # S#로 파일 업로드 혹은 CodeDeploy로 배포 등 외부 서비�
     bucket: toy-springboot-build # S3 버킷
     key: springboot-toy-api.zip # 빌드 파일을 압축해서 전달
     bundle_type: zip # 압축 확장자
-    application: toy-springboot2-webservice # 웹 콘솔에서 등록한 CodeDeploy 어플리케이션
+    application: toy-springboot2-webservice # 웹 콘솔에서 등록한 CodeDeploy 애플리케이션
     deployment_group: toy-springboot2-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룹
     region: ap-northeast-2
     wait-until-deployed: true
