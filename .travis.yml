@@ -22,6 +22,9 @@ before_deploy: #deploy 명령어가 실행되기 전 수행, CodeDeploy는 JAR�
   - ls -l
   - ls -a
   - zip -r toy-springboot2-webservice # 현재 위치의 모든 파일은 해당 이름으로 압축 (명령어의 마지막 위치는 본인의 프로젝트 이름이어야 함)
+  - ls -l
+  - cd ..
+  - ls -l
   - mkdir -p deploy # deploy라는 디렉토리를 Travics CI가 실행중인 위치에 생성
   - mv toy_springboot2-webservice.zip deploy/toy-springboot2-webservice.zip # 해당 ***.zip파일을 deploy/***.zip으로 이동
 
