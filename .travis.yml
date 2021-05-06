@@ -56,7 +56,7 @@ deploy: # S#로 파일 업로드 혹은 CodeDeploy로 배포 등 외부 서비�
     wait-until-deployed: true
 
 # CI 실행 완료 시 메일로 알람
-notifications: # Travis CI 실행 완료 시 자동으로 알람 발송
+notifications: # Travis CI 실행 완료 시 자동으로 알람 발송 
   email:
     recipients:
       - hmyanghm@gmail.com
