@@ -36,7 +36,3 @@ do
   echo "> Health check 연결 실패. 재시도..."
   sleep 10
 done
-
-  fi
-
-  fi
