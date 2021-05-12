@@ -23,15 +23,20 @@ script: "./gradlew clean build" # master에 push될 때 수행하는 명령어(�
 #  - mkdir -p deploy # deploy라는 디렉토리를 Travics CI가 실행중인 위치에 생성
 #  - mv springboot-toy-api.zip deploy/springboot-toy-api.zip # 해당 ***.zip파일을 deploy/***.zip으로 이동
 
-before_deploy:
-  - ls -al
-  - mkdir -p before-deploy # zip에 포함시킬 파일들을 담을 디렉토리 생성
-  - cp scripts/*.sh before-deploy/
-  - cp appspec.yml before-deploy/
-  - cp build/libs/*.jar before-deploy/
-  - cd before-deploy && zip -r before-deploy * # before-deploy로 이동후 전체 압
-  - cd ../ && mkdir -p deploy # 상위 디렉토리로 이동후 deploy 디렉토리 생성
-  - mv before-deploy/before-deploy.zip deploy/springboot-toy-api.zip # deploy로 zip파일 이동
+before_deploy: #deploy 명령어가 실행되기 전 수행, CodeDeploy는 JAR파일을 인식하지 못하므로 JAR + 기타 설정 파일들을 모아 압축
+  - zip -r springboot-toy-api.zip . # 현재 위치의 모든 파일을 해당 이름으로 압축(명령어의 마지막 위치는 본인의 프로젝트 이름이어야 함)
+  - mkdir -p deploy # deploy라는 디렉토리를 Travics CI가 실행중인 위치에 생성
+  - mv springboot-toy-api.zip deploy/springboot-toy-api.zip # 해당 ***.zip파일을 deploy/***.zip으로 이동
+
+#before_deploy:
+#  - ls -al
+#  - mkdir -p before-deploy # zip에 포함시킬 파일들을 담을 디렉토리 생성
+#  - cp scripts/*.sh before-deploy/
+#  - cp appspec.yml before-deploy/
+#  - cp build/libs/*.jar before-deploy/
+#  - cd before-deploy && zip -r before-deploy * # before-deploy로 이동후 전체 압
+#  - cd ../ && mkdir -p deploy # 상위 디렉토리로 이동후 deploy 디렉토리 생성
+#  - mv before-deploy/before-deploy.zip deploy/springboot-toy-api.zip # deploy로 zip파일 이동
 
 deploy: # S#로 파일 업로드 혹은 CodeDeploy로 배포 등 외부 서비스와 연동될 행위들을 선택
   - provider: s3
