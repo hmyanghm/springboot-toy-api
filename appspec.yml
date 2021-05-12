@@ -2,25 +2,32 @@ version: 0.0 # CodeDeploy 버전인데 프로젝트 버전이 아니므로 0.0 �
 os: linux
 files:
   - source: / # codeDeploy에서 전달해준 파일 중 destination으로 이동시킬 대상을 지정함 (루트 경로를 /로 지정하면 전체 파일을 말함)
-    destination: /home/ec2-user/app/step3/zip/ # source에서 지정된 파일을 받을 위치, 이후 JAR를 실행하는 등은 destination에서 옮긴 파일들로 진행
+    destination: /home/ec2-user/app/step2/zip/ # source에서 지정된 파일을 받을 위치, 이후 JAR를 실행하는 등은 destination에서 옮긴 파일들로 진행
     overwrite: yes # 기존에 파일들이 있으면 덮어쓸지 여부
 
-permissions:
-  - object: /
-    pattern: "**"
-    owner: ec2-user
-    group: ec2-user
-
-hooks:
-  AfterInstall:
-    - location: stop.sh # 엔진엑스와 연결되어 있지 않은 스프링 부트를 종료합니다.
-      timeout: 60
-      runas: ec2-user
-  ApplicationStart:
-    - location: start.sh # 엔진엑스와 연결되어 있지 않은 Port로 새 버전의 스프링 부트를 시작합니다.
-      timeout: 60
-      runas: ec2-user
-  ValidateService:
-    - location: health.sh # 새 스프링 부트가 정상적으로 실행됐는지 확인 합니다.
-      timeout: 60
-      runas: ec2-user
+#version: 0.0 # CodeDeploy 버전인데 프로젝트 버전이 아니므로 0.0 외에 다른 버전을 사용하면 오류 발생
+#os: linux
+#files:
+#  - source: / # codeDeploy에서 전달해준 파일 중 destination으로 이동시킬 대상을 지정함 (루트 경로를 /로 지정하면 전체 파일을 말함)
+#    destination: /home/ec2-user/app/step3/zip/ # source에서 지정된 파일을 받을 위치, 이후 JAR를 실행하는 등은 destination에서 옮긴 파일들로 진행
+#    overwrite: yes # 기존에 파일들이 있으면 덮어쓸지 여부
+#
+#permissions:
+#  - object: /
+#    pattern: "**"
+#    owner: ec2-user
+#    group: ec2-user
+#
+#hooks:
+#  AfterInstall:
+#    - location: stop.sh # 엔진엑스와 연결되어 있지 않은 스프링 부트를 종료합니다.
+#      timeout: 60
+#      runas: ec2-user
+#  ApplicationStart:
+#    - location: start.sh # 엔진엑스와 연결되어 있지 않은 Port로 새 버전의 스프링 부트를 시작합니다.
+#      timeout: 60
+#      runas: ec2-user
+#  ValidateService:
+#    - location: health.sh # 새 스프링 부트가 정상적으로 실행됐는지 확인 합니다.
+#      timeout: 60
+#      runas: ec2-user
