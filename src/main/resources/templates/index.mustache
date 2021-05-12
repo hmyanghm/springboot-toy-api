@@ -1,13 +1,13 @@
 {{>layout/header}}
 
-    <h1>스프링 부트로 시작하는 웹 서비스 ver.2</h1>
+    <h2>스프링부트 AWS 테스트 프로젝트</h2>
     <div class="col-md-12">
         <!-- 로그인 기능 영역 -->
         <div class="row">
             <div class="col-md-6">
                 <a href="/posts/save" role="button" class="btn btn-primary">글 등록</a>
                 {{#userName}} <!-- 머스테치는 if문이 없기때문에 항상 최종값을 넘겨줘야 함 -->
-                    Logged in as: <span id="user">{{userName}}</span>
+                    <span id="user">{{userName}}</span>님 반갑습니다.
                     <a href="/logout" class="btn btn-info active" role="button">LOGOUT</a>
                 {{/userName}}
                 {{^userName}} <!-- 머스테치에서 해당 값이 존재하지 않는 경우에는 ^를 사용-->
